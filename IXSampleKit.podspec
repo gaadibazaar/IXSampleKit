@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'IXSampleKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of IXSampleKit.'
+  s.summary          = 'Private pods created'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,20 +21,20 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/gaadibazaar.in@gmail.com/IXSampleKit'
+  s.homepage         = 'https://github.com/gaadibazaar/IXSampleKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'gaadibazaar.in@gmail.com' => 'fcw3fdF6RNNCQS63c/irmlPp/jSdmPTDcBp7dvNTNrQ=' }
-  s.source           = { :git => 'https://github.com/gaadibazaar.in@gmail.com/IXSampleKit.git', :tag => s.version.to_s }
+  s.author           = { 'Narasimha Rao' => 'gaadibazaar.in@gmail.com'}
+  s.source           = { :git => 'https://github.com/gaadibazaar/IXSampleKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'IXSampleKit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'IXSampleKit' => ['IXSampleKit/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'IXSampleKit' => ['IXSampleKit/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

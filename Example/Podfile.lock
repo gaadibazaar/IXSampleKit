@@ -1,0 +1,16 @@
+PODS:
+  - IXSampleKit (0.1.0)
+
+DEPENDENCIES:
+  - IXSampleKit (from `../`)
+
+EXTERNAL SOURCES:
+  IXSampleKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IXSampleKit: 97315f554d89563540c9d3b721c063c270fc2b7d
+
+PODFILE CHECKSUM: 141e512ad694cc7e958ef286a31a5d5a1724849e
+
+COCOAPODS: 1.9.0

@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		2D8406AED8A6DD0C9A7C7445 /* Pods_IXSampleKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IXSampleKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C6CC1B5558A2EE66B698BED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3C6CC1B5558A2EE66B698BED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5472275B14E1F4FBF7C7C928 /* Pods-IXSampleKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IXSampleKit_Example.release.xcconfig"; path = "Target Support Files/Pods-IXSampleKit_Example/Pods-IXSampleKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* IXSampleKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IXSampleKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		9C38CD0FFBE1C94D44670EEC /* Pods-IXSampleKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IXSampleKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-IXSampleKit_Example/Pods-IXSampleKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9F3DA5096893133B6EBA4374 /* Pods-IXSampleKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IXSampleKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-IXSampleKit_Tests/Pods-IXSampleKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B7592ECBABF52954AB2FA0EC /* Pods_IXSampleKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IXSampleKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDBD5774B8F6FED84A82E7AF /* IXSampleKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = IXSampleKit.podspec; path = ../IXSampleKit.podspec; sourceTree = "<group>"; };
+		DDBD5774B8F6FED84A82E7AF /* IXSampleKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = IXSampleKit.podspec; path = ../IXSampleKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E655ADA87642E25464C2ED9C /* Pods-IXSampleKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IXSampleKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-IXSampleKit_Tests/Pods-IXSampleKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E80F9F70E0E0F74927C77402 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E80F9F70E0E0F74927C77402 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				9F3DA5096893133B6EBA4374 /* Pods-IXSampleKit_Tests.debug.xcconfig */,
 				E655ADA87642E25464C2ED9C /* Pods-IXSampleKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -332,11 +332,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-IXSampleKit_Tests/Pods-IXSampleKit_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+				"${BUILT_PRODUCTS_DIR}/IXSampleKit/IXSampleKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IXSampleKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

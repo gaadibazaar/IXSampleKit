@@ -1,0 +1,6 @@
+framework module IXSampleKit {
+  umbrella header "IXSampleKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
