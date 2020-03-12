@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IXSampleKit'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Private pods created'
 
 # This description is used to generate tags and improve search results.
@@ -16,10 +16,6 @@ Pod::Spec.new do |s|
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
 
   s.homepage         = 'https://github.com/gaadibazaar/IXSampleKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -31,10 +27,10 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'IXSampleKit/Classes/**/*'
-  
-   s.resource_bundles = {
-     'IXSampleKit' => ['IXSampleKit/Assets/*.png']
-   }
+  s.swift_versions = '4.0'
+  # s.resource_bundles = {
+   #  'IXSampleKit' => ['IXSampleKit/Assets/*.png']
+   #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

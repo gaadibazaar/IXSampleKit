@@ -14,7 +14,17 @@
 		6106AAFE258BC8834F72E4BD6D94E871 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		6A0E864235CB84A51EEA4B58AFDD4293 /* Pods-IXSampleKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51DB1CAA9B2923A4238EC7A781FCB9C5 /* Pods-IXSampleKit_Tests-dummy.m */; };
 		75393449301444A626C1028506104A84 /* Pods-IXSampleKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC63D2055F9FB5EC9D247E7F682971F2 /* Pods-IXSampleKit_Example-dummy.m */; };
-		A606E0FE2419487100FC4A82 /* IXSampleKitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A606E0FD2419487100FC4A82 /* IXSampleKitTest.swift */; };
+		A606E1402419DC0F00FC4A82 /* IXCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A606E13F2419DC0F00FC4A82 /* IXCardView.swift */; };
+		A606E1422419DC5800FC4A82 /* IXRegexValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A606E1412419DC5800FC4A82 /* IXRegexValidation.swift */; };
+		A606E1442419DC8100FC4A82 /* IXTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A606E1432419DC8100FC4A82 /* IXTextField.swift */; };
+		A606E1462419DCBC00FC4A82 /* IXTextFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A606E1452419DCBC00FC4A82 /* IXTextFieldValidator.swift */; };
+		A606E1482419DD0500FC4A82 /* GridPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A606E1472419DD0500FC4A82 /* GridPicker.swift */; };
+		A606E14A2419DD6A00FC4A82 /* PaginationTableViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A606E1492419DD6A00FC4A82 /* PaginationTableViewType.swift */; };
+		A606E14C2419DE0C00FC4A82 /* NSContrain+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A606E14B2419DE0C00FC4A82 /* NSContrain+Extension.swift */; };
+		A606E14E2419DE6300FC4A82 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A606E14D2419DE6300FC4A82 /* String+Extension.swift */; };
+		A606E1502419DE9300FC4A82 /* UIColor+Extension .swift in Sources */ = {isa = PBXBuildFile; fileRef = A606E14F2419DE9300FC4A82 /* UIColor+Extension .swift */; };
+		A606E1522419DEDA00FC4A82 /* UIDevice+Extension .swift in Sources */ = {isa = PBXBuildFile; fileRef = A606E1512419DEDA00FC4A82 /* UIDevice+Extension .swift */; };
+		A606E1562419E06E00FC4A82 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A606E1552419E06E00FC4A82 /* UIImageView+Extension.swift */; };
 		B0AD38ED5783963C0617D701B0D7EB90 /* IXSampleKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD11DD5F118BA8561C66B55F952FEF3C /* IXSampleKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D54AF7FFFE51B6BE874C9A795F4723A4 /* Pods-IXSampleKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93CF5E8EFB272D31FD5CE5BD9E67A44B /* Pods-IXSampleKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -68,7 +78,17 @@
 		97DEDC7E3BFD5E89952304CE7575E3B8 /* IXSampleKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IXSampleKit.modulemap; sourceTree = "<group>"; };
 		9B0EFF32C0330465F9E7EAE7B7F2619B /* Pods-IXSampleKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IXSampleKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A606E0FD2419487100FC4A82 /* IXSampleKitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IXSampleKitTest.swift; path = IXSampleKit/Classes/IXSampleKitTest.swift; sourceTree = "<group>"; };
+		A606E13F2419DC0F00FC4A82 /* IXCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IXCardView.swift; path = IXSampleKit/Classes/IXCardView.swift; sourceTree = "<group>"; };
+		A606E1412419DC5800FC4A82 /* IXRegexValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IXRegexValidation.swift; path = IXSampleKit/Classes/IXRegexValidation.swift; sourceTree = "<group>"; };
+		A606E1432419DC8100FC4A82 /* IXTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IXTextField.swift; path = IXSampleKit/Classes/IXTextField.swift; sourceTree = "<group>"; };
+		A606E1452419DCBC00FC4A82 /* IXTextFieldValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IXTextFieldValidator.swift; path = IXSampleKit/Classes/IXTextFieldValidator.swift; sourceTree = "<group>"; };
+		A606E1472419DD0500FC4A82 /* GridPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GridPicker.swift; path = IXSampleKit/Classes/GridPicker.swift; sourceTree = "<group>"; };
+		A606E1492419DD6A00FC4A82 /* PaginationTableViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PaginationTableViewType.swift; path = IXSampleKit/Classes/PaginationTableViewType.swift; sourceTree = "<group>"; };
+		A606E14B2419DE0C00FC4A82 /* NSContrain+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "NSContrain+Extension.swift"; path = "IXSampleKit/Classes/NSContrain+Extension.swift"; sourceTree = "<group>"; };
+		A606E14D2419DE6300FC4A82 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "IXSampleKit/Classes/String+Extension.swift"; sourceTree = "<group>"; };
+		A606E14F2419DE9300FC4A82 /* UIColor+Extension .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension .swift"; path = "IXSampleKit/Classes/UIColor+Extension .swift"; sourceTree = "<group>"; };
+		A606E1512419DEDA00FC4A82 /* UIDevice+Extension .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIDevice+Extension .swift"; path = "IXSampleKit/Classes/UIDevice+Extension .swift"; sourceTree = "<group>"; };
+		A606E1552419E06E00FC4A82 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIImageView+Extension.swift"; path = "IXSampleKit/Classes/UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		AB890173373C86F4F02E2C426856D9B8 /* Pods-IXSampleKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IXSampleKit_Tests.modulemap"; sourceTree = "<group>"; };
 		BCAD81E7DADD54C19CAE25C9A8CB61AC /* Pods-IXSampleKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IXSampleKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D00E4291B83D60F45E846714420A65C7 /* IXSampleKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IXSampleKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,9 +175,19 @@
 		87E0FABDED806288C0D58B156B75714B /* IXSampleKit */ = {
 			isa = PBXGroup;
 			children = (
-				A606E0FD2419487100FC4A82 /* IXSampleKitTest.swift */,
 				7EC175B2B09C73070A49FB7BB6BE980F /* Pod */,
 				D2D740F811707AD9AA882A5AA52445B1 /* Support Files */,
+				A606E13F2419DC0F00FC4A82 /* IXCardView.swift */,
+				A606E1412419DC5800FC4A82 /* IXRegexValidation.swift */,
+				A606E1432419DC8100FC4A82 /* IXTextField.swift */,
+				A606E1452419DCBC00FC4A82 /* IXTextFieldValidator.swift */,
+				A606E1472419DD0500FC4A82 /* GridPicker.swift */,
+				A606E1492419DD6A00FC4A82 /* PaginationTableViewType.swift */,
+				A606E14B2419DE0C00FC4A82 /* NSContrain+Extension.swift */,
+				A606E14D2419DE6300FC4A82 /* String+Extension.swift */,
+				A606E14F2419DE9300FC4A82 /* UIColor+Extension .swift */,
+				A606E1512419DEDA00FC4A82 /* UIDevice+Extension .swift */,
+				A606E1552419E06E00FC4A82 /* UIImageView+Extension.swift */,
 			);
 			name = IXSampleKit;
 			path = ../..;
@@ -327,6 +357,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					A87F06A82AB1452A2D7C9AEE6D2F06A0 = {
+						LastSwiftMigration = 1130;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -378,7 +413,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CEF505BFA6EEC61A312644646DA6269 /* IXSampleKit-dummy.m in Sources */,
-				A606E0FE2419487100FC4A82 /* IXSampleKitTest.swift in Sources */,
+				A606E14E2419DE6300FC4A82 /* String+Extension.swift in Sources */,
+				A606E1562419E06E00FC4A82 /* UIImageView+Extension.swift in Sources */,
+				A606E1502419DE9300FC4A82 /* UIColor+Extension .swift in Sources */,
+				A606E1442419DC8100FC4A82 /* IXTextField.swift in Sources */,
+				A606E1422419DC5800FC4A82 /* IXRegexValidation.swift in Sources */,
+				A606E1522419DEDA00FC4A82 /* UIDevice+Extension .swift in Sources */,
+				A606E1462419DCBC00FC4A82 /* IXTextFieldValidator.swift in Sources */,
+				A606E14C2419DE0C00FC4A82 /* NSContrain+Extension.swift in Sources */,
+				A606E1482419DD0500FC4A82 /* GridPicker.swift in Sources */,
+				A606E1402419DC0F00FC4A82 /* IXCardView.swift in Sources */,
+				A606E14A2419DD6A00FC4A82 /* PaginationTableViewType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +471,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8BDC980B38DF3937BCDC68E41DB1B103 /* IXSampleKit.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -682,6 +728,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1C274310BAED109AEE45CEB0CDF888F4 /* IXSampleKit.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -702,6 +749,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";

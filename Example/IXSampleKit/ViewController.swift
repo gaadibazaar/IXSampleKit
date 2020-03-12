@@ -7,15 +7,13 @@
 //
 
 import UIKit
-import IXSampleKit
+
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let sample = IXSampleKitTest()
-        sample.IXSample()
     }
 
     override func didReceiveMemoryWarning() {
