@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IXSampleKit'
-  s.version          = '0.2.0'
+  s.version          = '0.5.0'
   s.summary          = 'Private pods created'
 
 # This description is used to generate tags and improve search results.

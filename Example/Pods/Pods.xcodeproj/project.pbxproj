@@ -25,6 +25,14 @@
 		A606E1502419DE9300FC4A82 /* UIColor+Extension .swift in Sources */ = {isa = PBXBuildFile; fileRef = A606E14F2419DE9300FC4A82 /* UIColor+Extension .swift */; };
 		A606E1522419DEDA00FC4A82 /* UIDevice+Extension .swift in Sources */ = {isa = PBXBuildFile; fileRef = A606E1512419DEDA00FC4A82 /* UIDevice+Extension .swift */; };
 		A606E1562419E06E00FC4A82 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A606E1552419E06E00FC4A82 /* UIImageView+Extension.swift */; };
+		A606E158241A3A8A00FC4A82 /* MediaUploadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A606E157241A3A8A00FC4A82 /* MediaUploadManager.swift */; };
+		A606E15C241A3ACF00FC4A82 /* MediaUploadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A606E15B241A3ACF00FC4A82 /* MediaUploadModel.swift */; };
+		A606E15E241A3AF900FC4A82 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A606E15D241A3AF900FC4A82 /* Parser.swift */; };
+		A606E160241A3B2C00FC4A82 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A606E15F241A3B2C00FC4A82 /* Reachability.swift */; };
+		A606E162241A3B5800FC4A82 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A606E161241A3B5800FC4A82 /* RequestManager.swift */; };
+		A606E164241A3B9600FC4A82 /* RequestManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A606E163241A3B9600FC4A82 /* RequestManager+Extension.swift */; };
+		A606E166241A3BB600FC4A82 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = A606E165241A3BB600FC4A82 /* Response.swift */; };
+		A606E168241A3BD800FC4A82 /* validate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A606E167241A3BD800FC4A82 /* validate.swift */; };
 		B0AD38ED5783963C0617D701B0D7EB90 /* IXSampleKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD11DD5F118BA8561C66B55F952FEF3C /* IXSampleKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D54AF7FFFE51B6BE874C9A795F4723A4 /* Pods-IXSampleKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93CF5E8EFB272D31FD5CE5BD9E67A44B /* Pods-IXSampleKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -89,6 +97,14 @@
 		A606E14F2419DE9300FC4A82 /* UIColor+Extension .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension .swift"; path = "IXSampleKit/Classes/UIColor+Extension .swift"; sourceTree = "<group>"; };
 		A606E1512419DEDA00FC4A82 /* UIDevice+Extension .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIDevice+Extension .swift"; path = "IXSampleKit/Classes/UIDevice+Extension .swift"; sourceTree = "<group>"; };
 		A606E1552419E06E00FC4A82 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIImageView+Extension.swift"; path = "IXSampleKit/Classes/UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		A606E157241A3A8A00FC4A82 /* MediaUploadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MediaUploadManager.swift; path = IXSampleKit/Classes/MediaUploadManager.swift; sourceTree = "<group>"; };
+		A606E15B241A3ACF00FC4A82 /* MediaUploadModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MediaUploadModel.swift; path = IXSampleKit/Classes/MediaUploadModel.swift; sourceTree = "<group>"; };
+		A606E15D241A3AF900FC4A82 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = IXSampleKit/Classes/Parser.swift; sourceTree = "<group>"; };
+		A606E15F241A3B2C00FC4A82 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = IXSampleKit/Classes/Reachability.swift; sourceTree = "<group>"; };
+		A606E161241A3B5800FC4A82 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RequestManager.swift; path = IXSampleKit/Classes/RequestManager.swift; sourceTree = "<group>"; };
+		A606E163241A3B9600FC4A82 /* RequestManager+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RequestManager+Extension.swift"; path = "IXSampleKit/Classes/RequestManager+Extension.swift"; sourceTree = "<group>"; };
+		A606E165241A3BB600FC4A82 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Response.swift; path = IXSampleKit/Classes/Response.swift; sourceTree = "<group>"; };
+		A606E167241A3BD800FC4A82 /* validate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = validate.swift; path = IXSampleKit/Classes/validate.swift; sourceTree = "<group>"; };
 		AB890173373C86F4F02E2C426856D9B8 /* Pods-IXSampleKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IXSampleKit_Tests.modulemap"; sourceTree = "<group>"; };
 		BCAD81E7DADD54C19CAE25C9A8CB61AC /* Pods-IXSampleKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IXSampleKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D00E4291B83D60F45E846714420A65C7 /* IXSampleKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IXSampleKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -188,6 +204,14 @@
 				A606E14F2419DE9300FC4A82 /* UIColor+Extension .swift */,
 				A606E1512419DEDA00FC4A82 /* UIDevice+Extension .swift */,
 				A606E1552419E06E00FC4A82 /* UIImageView+Extension.swift */,
+				A606E157241A3A8A00FC4A82 /* MediaUploadManager.swift */,
+				A606E15B241A3ACF00FC4A82 /* MediaUploadModel.swift */,
+				A606E15D241A3AF900FC4A82 /* Parser.swift */,
+				A606E15F241A3B2C00FC4A82 /* Reachability.swift */,
+				A606E161241A3B5800FC4A82 /* RequestManager.swift */,
+				A606E163241A3B9600FC4A82 /* RequestManager+Extension.swift */,
+				A606E165241A3BB600FC4A82 /* Response.swift */,
+				A606E167241A3BD800FC4A82 /* validate.swift */,
 			);
 			name = IXSampleKit;
 			path = ../..;
@@ -412,17 +436,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A606E162241A3B5800FC4A82 /* RequestManager.swift in Sources */,
 				4CEF505BFA6EEC61A312644646DA6269 /* IXSampleKit-dummy.m in Sources */,
 				A606E14E2419DE6300FC4A82 /* String+Extension.swift in Sources */,
+				A606E168241A3BD800FC4A82 /* validate.swift in Sources */,
+				A606E15E241A3AF900FC4A82 /* Parser.swift in Sources */,
 				A606E1562419E06E00FC4A82 /* UIImageView+Extension.swift in Sources */,
+				A606E166241A3BB600FC4A82 /* Response.swift in Sources */,
+				A606E15C241A3ACF00FC4A82 /* MediaUploadModel.swift in Sources */,
 				A606E1502419DE9300FC4A82 /* UIColor+Extension .swift in Sources */,
 				A606E1442419DC8100FC4A82 /* IXTextField.swift in Sources */,
 				A606E1422419DC5800FC4A82 /* IXRegexValidation.swift in Sources */,
 				A606E1522419DEDA00FC4A82 /* UIDevice+Extension .swift in Sources */,
 				A606E1462419DCBC00FC4A82 /* IXTextFieldValidator.swift in Sources */,
 				A606E14C2419DE0C00FC4A82 /* NSContrain+Extension.swift in Sources */,
+				A606E158241A3A8A00FC4A82 /* MediaUploadManager.swift in Sources */,
 				A606E1482419DD0500FC4A82 /* GridPicker.swift in Sources */,
 				A606E1402419DC0F00FC4A82 /* IXCardView.swift in Sources */,
+				A606E164241A3B9600FC4A82 /* RequestManager+Extension.swift in Sources */,
+				A606E160241A3B2C00FC4A82 /* Reachability.swift in Sources */,
 				A606E14A2419DD6A00FC4A82 /* PaginationTableViewType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
